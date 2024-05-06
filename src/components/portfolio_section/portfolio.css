@@ -1,0 +1,29 @@
+.portfolio__div{
+    padding-top: 120px;
+    background: #02050a;
+}
+.portfolio__div__title{
+margin-bottom: 25px;
+}
+.portfolio__div__title h5{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #55e6a5;
+    margin-bottom: 15px;
+}
+.portfolio__div__title h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #ffffff;
+}
+.portfolio__div a img{
+    height: 550px;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+.header__section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+#aboutRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__section__left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header__section__left h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.header__section__left h1 span {
+  color: #55e6a5;
+}
+.header__section__left p {
+  font-weight: 500;
+  margin-bottom: 65px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #a2a2a2;
+}
+.header__section__left__buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.header__section__left__buttons button {
+  padding: 25px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #55e6a5;
+  color: #02050a;
+  border: none;
+  font-weight: 500;
+  transition: all 0.3s linear 0s;
+}
+.header__section__left__buttons button:hover{
+  background: #141c27;
+  color: #ffffff;
+}
+.header__section__left__buttons button i {
+  font-weight: 900;
+  font-size: 14px;
+}
+.header__section__left__buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s linear 0s;
+  color: #ffffff;
+}
+.header__section__left__buttons a i {
+  font-size: 50px;
+  color: #55e6a5;
+}
+.header__section__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding: 35px;
+}
+.header__section__right img{
+  height: 515px;
+}
+.header__section__right::after{
+    position: absolute;
+    content: "";
+    background: url("https://zyan.vercel.app/images/shapes/banner_shape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 526px;
+    height: 585px;
+    top: 0px;
+    right: 6px;
+}
+
+@media screen and (max-width:1400px){
+  .header__section__right{
+    width: 451px;
+    height: 500px;
+    margin-left: 90px;
+  }
+  .header__section__right img{
+    width: 381px;
+    height: 430px;
+  }
+  .header__section__right::after{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .header__section__right{
+  display: none;
+}
+ 
+.header__section__left{
+  margin-top: 30px;
+}
+.header__section__left h1{
+  font-size: 50px;
+}
+.header__section__left p{
+  font-size: 12px; 
+}
+
+};
+
+
+  
+
+
+

@@ -1,0 +1,109 @@
+.footer {
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  background: #02050a;
+  padding-top: 120px;
+}
+#ftop__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 30px;
+}
+.footer__content__svg__address {
+  width: 100px;
+  height: 100px;
+  background: #55e6a5;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content__svg__address span {
+  width: 100px;
+}
+
+.footer__content__text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.footer__content__text p {
+  color: #a2a2a2;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer__content__svg__phone {
+  width: 100px;
+  height: 100px;
+  background: #55e6a5;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content__text a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a2a2a2;
+  line-height: 30px;
+  transition: all linear 0.3s;
+}
+.footer__content__svg__email {
+  width: 100px;
+  height: 100px;
+  background: #55e6a5;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fff1;
+  margin-top: 75px;
+  padding: 35px 0px;
+}
+.footer__copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #a2a2a2;
+  opacity: 0.5;
+}
+.footer__copyright ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.footer__copyright ul a {
+  color: #ffffff;
+  opacity: 0.5;
+  transition: all 0.3s linear 0s;
+}
+.footer__content__text a:hover {
+  color: #55e6a5;
+}
+.footer__copyright ul a:hover {
+  color: #55e6a5;
+  opacity: 1;
+}

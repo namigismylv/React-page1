@@ -1,0 +1,224 @@
+header {
+  background-image: url("https://zyan.vercel.app/images/bg/banner.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141c27;
+  height: 80px;
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header__middle ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__middle ul a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 32px 20px;
+  transition: all linear 0.3s;
+}
+.header__middle ul a:hover {
+  color: #55e6a5;
+}
+
+.header__middle a i {
+  font-size: 12px;
+}
+
+.header__right {
+  width: 80px;
+  height: 100%;
+  background-color: #55e6a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header__right button {
+  border: none;
+}
+
+.header__right i {
+  font-size: 30px;
+  color: black;
+}
+.header__left {
+  height: 100%;
+}
+
+.offcanvas-header {
+  background: #141c27;
+  padding: 25px;
+  justify-content: space-between;
+}
+.offcanvas-header a {
+  width: 110px;
+}
+.offcanvas-header a img {
+  width: 100%;
+}
+.close {
+  background: #141c27;
+  margin-right: -10px;
+}
+
+.close i {
+  background: #55e6a5;
+  color: #02050a;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear 0.3s;
+}
+.close i:hover {
+  color: #fff;
+  background: #09101a;
+}
+.offcanvas-body {
+  padding: 30px;
+  background: #09101a;
+  scrollbar-width: none;
+}
+
+.offcanvas__body__title {
+  margin-top: 40px;
+}
+.offcanvas__body__title h4 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+.offcanvas__body__title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0;
+  color: #a2a2a2;
+}
+.offcanvas__body__form__div {
+  margin-top: 80px;
+}
+.offcanvas__body__form__div h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  color: #ffffff;
+}
+#offcanvas__body__form {
+  display: block;
+}
+#offcanvas__body__form input {
+  width: 100%;
+  outline: none;
+  margin-top: 30px;
+  background: none;
+  border: 1px solid #55e6a5;
+  padding: 22px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+#offcanvas__body__form input::placeholder {
+  color: #a2a2a2;
+}
+#offcanvas__body__form textarea {
+  background: none;
+  border: 1px solid #55e6a5;
+  padding: 22px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+#offcanvas__body__form textarea::placeholder {
+  color: #a2a2a2;
+}
+#offcanvas__body__form button {
+  padding: 22px 40px;
+  background: #55e6a5;
+  color: #02050a;
+  border: none;
+  transition: all 0.3s linear 0s;
+  font-weight: 500;
+  margin-top: 25px;
+}
+#offcanvas__body__form button:hover {
+  background: #141c27;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width:1400px){
+    header .header{
+        width: 1140px;
+    }
+}
+@media screen and (max-width:1200px){
+    header .header{
+     width: 960px;
+    }
+}
+@media screen and (max-width:992px){
+    header .header{
+     width: 720px;
+     height: 60px;
+     
+    }
+    header .header__middle{
+      display: none;
+    }
+    header .header__left img{
+      width: 100px;
+      height: 44.44px;
+      margin-top: 9px;
+      margin-left: 12px;
+    }
+    header .header__right{
+      width: 40px;
+      height: 40px;
+      margin-right: 12px;
+    }
+    header .header__right button i{
+      font-size: 18px;
+      text-align: center;
+
+    }
+}
+
+@media screen and (max-width:768px){
+  header .header{
+    width: 540px;
+  } 
+}
+@media screen and (max-width:576px){
+  header .header{
+    width: 100%;
+  } 
+}
