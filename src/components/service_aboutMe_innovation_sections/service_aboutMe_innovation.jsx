@@ -15,8 +15,8 @@ function Service_aboutMe_innovation() {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-4">
+            <div className="row" id="serviceRow">
+              <div className="col-4 serviceCol">
                 <div className="field">
                   <span>
                     <svg
@@ -50,7 +50,7 @@ function Service_aboutMe_innovation() {
                   </p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 serviceCol">
                 <div className="field">
                   <span>
                     <svg
@@ -88,7 +88,7 @@ function Service_aboutMe_innovation() {
                   </p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 serviceCol">
                 <div className="field">
                   <span>
                     <svg
@@ -138,7 +138,7 @@ function Service_aboutMe_innovation() {
         <div className="aboutMe__div">
           <div className="container">
             <div className="row" id="aboutMe__row">
-              <div className="col-6">
+              <div className="col-6 aboutMeCol1">
                 <div className="aboutMe__div__item">
                   <div className="aboutMe__div__title">
                     <h5>ABOUT ME</h5>
@@ -158,7 +158,7 @@ function Service_aboutMe_innovation() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 aboutMeCol2">
                 <div className="aboutMe__div__img">
                   <img
                     src="https://zyan.vercel.app/images/about_img.jpg"
@@ -181,7 +181,7 @@ function Service_aboutMe_innovation() {
         <div className="innovation__div">
           <div className="container">
             <div className="row">
-              <div className="col-6">
+              <div className="col-6 innovationCol">
                 <div className="innovation__div__text">
                   <h2>
                     Design <span>and Innovation</span> 
@@ -195,7 +195,7 @@ function Service_aboutMe_innovation() {
                   </p>
                 </div>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-6 innovationCounter-col">
                     <div className="innovation__div__counter">
                       <span>
                         <svg
@@ -232,7 +232,7 @@ function Service_aboutMe_innovation() {
                       <p>Complete project</p>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-6 innovationCounter-col">
                     <div className="innovation__div__counter">
                       <span>
                         <svg
@@ -275,7 +275,7 @@ function Service_aboutMe_innovation() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 innovationCol">
                 <div className="innovation__div__form">
                   <h2>GET TOUCH ME?</h2>
                   <p>

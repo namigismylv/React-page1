@@ -1,69 +1,94 @@
-.education__div{
-    background: #09101a;
-    padding-top: 115px;
-    padding-bottom: 70px;
+.education__div {
+  background: #09101a;
+  padding-top: 115px;
+  padding-bottom: 70px;
 }
-.education__div__title{
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.education__div__title {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.education__div__title h5{
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1.4px;
-    text-align: center;
-    color: #55e6a5;
-    margin-bottom: 15px;
+.education__div__title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #55e6a5;
+  margin-bottom: 15px;
 }
-.education__div__title h2{
-    font-size: 48px;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.3;
-    color: #fff;
+.education__div__title h2 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #fff;
 }
-.education__div__text{
-    margin-bottom: 80px;
+.education__div__text {
+  margin-bottom: 80px;
 }
-.education__div__text span{
-    font-size: 18px;
-    display: inline-block;
-    border: 1px solid #55e6a5;
-    padding: 15px 24px;
-    color: #55e6a5;
+.education__div__text span {
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #55e6a5;
+  padding: 15px 24px;
+  color: #55e6a5;
 }
-.education__div__text h3{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #fff;
+.education__div__text h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
 }
-.education__div__text p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.7;
-    color: #a2a2a2;
+.education__div__text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #a2a2a2;
 }
-.education__div__program{
-    margin-bottom: 50px;
-    background: #151c25;
+.education__div__program {
+  margin-bottom: 50px;
+  background: #151c25;
 }
-.education__div__program p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.7;
-    color: #ffffff;
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.education__div__program p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.education__div__program span{
-    display: block;
-    width: 77%;
-    height: 6px;
-    background: #55e6a5;
+.education__div__program span {
+  display: block;
+  width: 77%;
+  height: 6px;
+  background: #55e6a5;
+}
+
+/* Media */
+@media screen and (max-width: 1400px) {
+  .education__div__title h2 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .educationCol {
+    width: 100%;
+  }
+  .education__div__title h2 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education__div__title h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .education__div__text h3 {
+    font-size: 24px;
+  }
 }

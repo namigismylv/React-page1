@@ -14,7 +14,7 @@ function Client_brand_blog() {
               </div>
             </div>
             <div className="row" id="clientRow">
-              <div className="col-6">
+              <div className="col-6 clientCol">
                 <div className="client__div__area">
                   <div className="client__div__area__img">
                     <img
@@ -38,7 +38,7 @@ function Client_brand_blog() {
                   </p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 clientCol">
                 <div className="client__div__area">
                   <div className="client__div__area__img">
                     <img

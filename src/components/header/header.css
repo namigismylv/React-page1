@@ -1,9 +1,9 @@
 header {
   background-image: url("https://zyan.vercel.app/images/bg/banner.jpg");
-  height: 100vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 .header {
   position: sticky;
@@ -174,7 +174,7 @@ header {
   color: #ffffff;
 }
 
-
+/* Media */
 @media screen and (max-width:1400px){
     header .header{
         width: 1140px;

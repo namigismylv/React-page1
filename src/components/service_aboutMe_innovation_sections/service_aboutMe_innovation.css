@@ -130,8 +130,8 @@
   position: absolute;
   content: "";
   background: #55e6a5;
-  width: 60%;
-  height: 80%;
+  width: 381.6px;
+  height: 384px;
   top: -20px;
   right: -20px;
   z-index: -1;
@@ -167,6 +167,7 @@
   font-weight: 400;
   line-height: 1.7;
   color: #a2a2a2;
+  
 }
 /* innovation section */
 .innovation__div {
@@ -190,7 +191,7 @@
 }
 .innovation__div__text p {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
@@ -198,7 +199,6 @@
 }
 .innovation__div__counter{
     background: #09101a;
-    margin-top: 25px;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -217,6 +217,7 @@
     font-weight: 700;
     color: #ffffff;
 }
+
 .innovation__div__counter p{
     font-size: 18px;
     color:#fff ;
@@ -238,7 +239,8 @@
     font-weight: 400;
     line-height: 1.7;
     color: #a2a2a2;
-}
+  }
+  
 #form{
     display: block;
     
@@ -280,4 +282,220 @@
   color: #ffffff;
 }
 
+/* Media */
+/* Service media */
+@media screen and (max-width: 1200px){
+  .service__div__title h2{
+    font-size: 38px;
+  }
+  .field{
+    padding: 90px 20px 20px;
+  }
+}
+@media screen and (max-width:992px){
+  .service__div__title h2{
+    font-size: 42px;
+  }
+.serviceCol{
+  width: 50%;
+}
+.field{
+  padding: 100px 40px 40px;
+}
+  
+}
 
+@media screen and (max-width:768px){
+  .serviceCol{
+    width: 100%;
+  }
+  .service__div__title h2{
+    font-size: 36px;
+  }
+  }
+  @media screen and (max-width:576px){
+    .field{
+      padding: 100px 25px 25px ;
+    }
+}
+  /* aboutMe media */
+  @media  screen and (max-width:1400px) {
+    .aboutMe__div__title h2{
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-width:992px){
+    .aboutMe__div__title h2{
+      font-size: 42px;
+    }
+    .aboutMe__div__description::after {
+      display: none;
+    }
+    .aboutMe__div__description{
+      padding-left:0;
+    } 
+    .aboutMe__div__description p{
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+    .aboutMe__div__button button{
+      margin-bottom: 70px;
+    }
+    
+    #aboutMe__row{
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .aboutMeCol1{
+      width: 100%;
+    }
+    .aboutMeCol2{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      
+    }  
+  }
+  @media screen and (max-width:992px){
+    .aboutMe__div__img::after{
+      height: 460px;
+    }
+  }
+  @media screen and (max-width:576px){
+    .aboutMe__div__img{
+      margin: 0 auto;
+    }
+    .aboutMeCol2 img{
+      width: 316px;
+      
+    }
+    .aboutMe__div__img::after{
+      width: 302.5px;
+      height: 360px;      
+    }
+
+    .aboutMeCol2{
+      width: 100%;
+      margin: 0 auto;      
+    }
+    .aboutMe__div__text{
+      padding: 15px 30px;
+      right: 35px;
+    }
+    .aboutMe__div__text p{
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+  @media screen and (max-width:460px) {
+    
+    .aboutMe__div__img img{
+      width: 300px;
+    }
+    .aboutMe__div__img::after{
+      width: 286.4px;
+      height: 344px;      
+    }
+    .aboutMe__div__text{
+      padding: 12px 20px;
+      right: 35px;
+    }
+    
+    
+  }
+  @media screen and (max-width:380px) {
+    
+    
+    .aboutMe__div__img img{
+      width: 220px;
+    }
+    .aboutMe__div__img::after{
+      width: 206.4px;
+      height: 264px;      
+    }
+    .aboutMe__div__text h4{
+      font-size: 11px;
+    }
+    .aboutMe__div__text p{
+      font-size: 9px;
+    }
+    .aboutMe__div__text{
+      padding: 14px 20px;
+      right: 25px;
+      bottom: -47px;
+    }
+    .aboutMe__div__text i{
+      width: 40px;
+      height: 40px;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+
+  /* Innovation media */
+  @media screen and (max-width:1400px){
+    .innovation__div__text h2{
+      font-size: 90px;
+    }
+  }
+  .innovation__div__counter{
+    padding: 30px;
+  }
+
+  @media screen and (max-width:1200px){
+    .innovation__div__counter p{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:992px){
+    .innovation__div__text h2{
+      font-size: 80px;
+    }
+    .innovation__div__text span{
+      font-size: 52px;
+    }
+    .innovationCol{
+      width: 100%;
+    }
+    .innovation__div__counter{
+      margin-bottom: 25px;
+    }
+    .innovation__div__counter{
+      padding: 40px;
+    }
+    .innovation__div__counter p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .innovation__div__text h2{
+      font-size: 70px;
+    }
+    .innovation__div__text span{
+      font-size: 45px;
+    }
+    .innovationCounter-col{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:576px){
+    .innovation__div__text h2{
+      font-size: 40px;
+    }
+    .innovation__div__text span{
+      font-size: 20px;
+    }
+    .innovation__div__form{
+      padding: 25px;
+    }
+    .innovation__div__form h2{
+      font-size: 28px;
+    }
+    
+  }
+  
+  

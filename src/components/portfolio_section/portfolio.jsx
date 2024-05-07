@@ -17,7 +17,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="row">
-              <div className="col-8">
+              <div className="col-8 portfolioCol1">
                 <a href="#">
               <img
                   src="https://zyan.vercel.app/images/portfolio/1.jpg"
@@ -25,19 +25,19 @@ function Portfolio() {
                 />
                 </a>
               </div>
-              <div className="col-4">
+              <div className="col-4 portfolioCol1">
                 <a href="#">
                 <img src="https://zyan.vercel.app/images/portfolio/2.jpg" alt="" />
                 </a>
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-6 portfolioCol2">
                 <a href="#">
                 <img src="https://zyan.vercel.app/images/portfolio/3.jpg" alt="" />
                 </a>
               </div>
-              <div className="col-6">
+              <div className="col-6 portfolioCol2">
                 <a href="#">
                 <img src="https://zyan.vercel.app/images/portfolio/4.jpg" alt="" />
                 </a>

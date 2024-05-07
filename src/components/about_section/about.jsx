@@ -4,7 +4,7 @@ function about() {
     <div className="header__section">
       <div className="container">
         <div className="row" id="aboutRow">
-          <div className="col-6">
+          <div className="col-6" id="aboutCol1">
             <div className="header__section__left">
               <h1>
                 HI, I'M ZYAN! CREATIVE <span>CODER</span>
@@ -26,7 +26,7 @@ function about() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6" id="aboutCol2">
             <div className="header__section__right">
               <img 
                 src="https://zyan.vercel.app/images/banner_img_1.png"
