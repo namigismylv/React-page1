@@ -74,14 +74,14 @@ function Header() {
                 <p>
                   Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
                   tempor incididunt ut labore et magna aliqua. Ut enim ad minim
-                  veniam laboris. 
+                  veniam laboris.
                 </p>
               </div>
               <div className="offcanvas__body__form__div">
                 <h4>GET IN TOUCH</h4>
                 <form action="#" id="offcanvas__body__form">
                   <input type="text" placeholder="Your Name" />
-                  <input type="text" placeholder="Your Email"/>
+                  <input type="text" placeholder="Your Email" />
                   <textarea rows={6} placeholder="Message"></textarea>
                   <button>submit now</button>
                 </form>
@@ -95,4 +95,3 @@ function Header() {
   );
 }
 export default Header;
-

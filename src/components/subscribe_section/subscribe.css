@@ -90,4 +90,11 @@ position: relative;
     #subscribe__form input{
         width: 100%;
     }
+
+}
+@media screen and (max-width:380px) {
+    #subscribe__form button{
+        padding: 20px 15px;
+        top: 12.35px;
+    }
 }

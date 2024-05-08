@@ -64,7 +64,6 @@ header {
 .header__left {
   height: 100%;
 }
-
 .offcanvas-header {
   background: #141c27;
   padding: 25px;
@@ -173,24 +172,23 @@ header {
   background: #141c27;
   color: #ffffff;
 }
-
 /* Media */
 @media screen and (max-width:1400px){
-    header .header{
-        width: 1140px;
-    }
+  header .header{
+    width: 1140px;
+  }
 }
 @media screen and (max-width:1200px){
-    header .header{
-     width: 960px;
-    }
+  header .header{
+    width: 960px;
+  }
 }
 @media screen and (max-width:992px){
-    header .header{
-     width: 720px;
-     height: 60px;
-     
-    }
+  header .header{
+    width: 720px;
+    height: 60px;
+    
+  }
     header .header__middle{
       display: none;
     }

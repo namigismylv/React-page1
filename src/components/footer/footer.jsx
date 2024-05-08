@@ -7,7 +7,7 @@ function Footer() {
           <div className="footer__top">
             <div className="container">
               <div className="row" id="ftop__row">
-                <div className="col-4">
+                <div className="col-4 ftopCol">
                   <div className="footer__content">
                     <div className="footer__content__svg__address">
                       <span>
@@ -33,7 +33,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4">
+                <div className="col-4 ftopCol">
                   <div className="footer__content">
                     <div className="footer__content__svg__phone">
                       <span>
@@ -60,7 +60,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4">
+                <div className="col-4 ftopCol">
                   <div className="footer__content">
                     <div className="footer__content__svg__email">
                       <span>
@@ -93,7 +93,7 @@ function Footer() {
           <div className="footer__bottom">
             <div className="container">
               <div className="row" id="fb__row">
-                <div className="col-12">
+                <div className="col-12 copyrightCol">
                   <div className="footer__copyright">
                     <p>© CodeeFly 2023 | All Rights Reserved</p>
                     <ul>

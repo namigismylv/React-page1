@@ -67,48 +67,53 @@ function Client_brand_blog() {
         </div>
       </section>
       <div className="brand">
+
+        <marquee  direction="left">
         <div className="row">
           <div className="col-12">
             <div className="brand__ul">
               <ul>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">* PHP</a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">* PYRHON</a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">* DESIGN</a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">* WORLD</a>
                 </li>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">* DEVELOPMENT</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
+
+        </marquee>
       </div>
       <section id="blog">
         <div className="blog__div">
           <div className="container">
             <div className="row" id="blogRow">
-              <div className="col-8">
+              <div className="col-8 blogTitleCol">
                 <div className="blog__div__title">
                   <h5>MY BLOG</h5>
                   <h2>Unlocking the potential of your personal brand</h2>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 blogTitleCol">
                 <div className="blog__div__button">
                   <a href="#">More Blog +</a>
                 </div>
               </div>
             </div>
             <div className="row">
-              <div className="col-4">
+              <div className="col-4 blogCol">
                 <div className="blog__div__card">
                   <a href="#">
                     <img
@@ -130,7 +135,7 @@ function Client_brand_blog() {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 blogCol">
               <div className="blog__div__card">
                   <a href="#">
                     <img
@@ -152,7 +157,7 @@ function Client_brand_blog() {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 blogCol">
               <div className="blog__div__card">
                   <a href="#">
                     <img

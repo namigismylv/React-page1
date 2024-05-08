@@ -1,8 +1,4 @@
 .footer {
-  /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
   background: #02050a;
   padding-top: 120px;
 }
@@ -15,7 +11,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   gap: 30px;
 }
 .footer__content__svg__address {
@@ -78,6 +73,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   border-top: 1px solid #fff1;
   margin-top: 75px;
   padding: 35px 0px;
@@ -106,4 +102,91 @@
 .footer__copyright ul a:hover {
   color: #55e6a5;
   opacity: 1;
+}
+
+/* Media */
+@media screen and (max-width:1400px){
+  .footer__content{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }  
+  .footer__content__svg__address{
+    width: 70px;
+    height: 70px;
+    
+  }
+  .footer__content__svg__phone{
+    width: 70px;
+    height: 70px;
+  }
+  .footer__content__svg__email{
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width:1200px){
+  .footer__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+}
+@media screen and (max-width:992px){
+  
+  .footer__content__svg__address{
+    width: 75px;
+    height: 75px;
+    
+  }
+  .footer__content__svg__phone{
+    width: 75px;
+    height: 75px;
+  }
+  .footer__content__svg__email{
+    width: 75px;
+    height: 75px;
+  }
+  .footer__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .footer__content__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer__content__text p{
+    text-align: center;
+  }
+  #ftop__row{
+    gap: 50px;
+  }
+  .ftopCol{
+    width: 100%;
+    
+  }
+.footer__copyright ul {
+  margin-top: 25px;
+}
+}
+
+@media screen and (max-width:470px){
+  .footer__copyright{
+     p{
+      font-size: 12px;
+     }
+     ul{
+      a{
+        font-size: 12px;
+      }
+     }
+  }
 }
